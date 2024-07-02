@@ -3,7 +3,7 @@ close all;
 clc;
 
 videoObj = VideoReader("nogoal.mp4");% VideoReader to read frames of video
-newVideo = VideoWriter("C:/Users/theno/Downloads/Image processing/taskDvideoNoGoal", 'MPEG-4');
+newVideo = VideoWriter("taskDvideoNoGoal", 'MPEG-4');
 %VideoWriter for saving created frames of a video
 open(newVideo);%Openning VideoWriter object for wrtiting
 
